@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Objednavka">
+  <Parameters>
+    <Parameter id="0" name="Registration" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="Name_and_surname" type="1">
+      <values>
+        <value>null</value>
+        <value>vasiliy pupkin</value>
+        <value>:equal45DD</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="2" name="Destinace" type="1">
+      <values>
+        <value>Praha</value>
+        <value>Kyiv</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="Datum_narozeni" type="1">
+      <values>
+        <value>25.07.2003</value>
+        <value>02/03/2005</value>
+        <value>2004-07-23</value>
+        <value>14/08/1488</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="Sleva" type="1">
+      <values>
+        <value>Student</value>
+        <value>Duchodce</value>
+        <value>Slevovy kupon</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="5">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="16">
+      <Value>17</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="17">
+      <Value>18</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="18">
+      <Value>19</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="19">
+      <Value>20</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="20">
+      <Value>21</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="21">
+      <Value>22</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="22">
+      <Value>23</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="23">
+      <Value>24</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="24">
+      <Value>25</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="25">
+      <Value>26</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="26">
+      <Value>27</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="27">
+      <Value>28</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="28">
+      <Value>29</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="29">
+      <Value>30</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="30">
+      <Value>31</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="31">
+      <Value>32</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="32">
+      <Value>33</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="33">
+      <Value>34</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="34">
+      <Value>35</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="35">
+      <Value>36</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>25.07.2003</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="36">
+      <Value>37</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="37">
+      <Value>38</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="38">
+      <Value>39</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="39">
+      <Value>40</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="40">
+      <Value>41</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="41">
+      <Value>42</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="42">
+      <Value>43</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="43">
+      <Value>44</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="44">
+      <Value>45</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="45">
+      <Value>46</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="46">
+      <Value>47</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="47">
+      <Value>48</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="48">
+      <Value>49</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="49">
+      <Value>50</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="50">
+      <Value>51</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="51">
+      <Value>52</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="52">
+      <Value>53</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="53">
+      <Value>54</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="54">
+      <Value>55</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="55">
+      <Value>56</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="56">
+      <Value>57</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="57">
+      <Value>58</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="58">
+      <Value>59</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="59">
+      <Value>60</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="60">
+      <Value>61</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="61">
+      <Value>62</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="62">
+      <Value>63</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="63">
+      <Value>64</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="64">
+      <Value>65</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="65">
+      <Value>66</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="66">
+      <Value>67</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="67">
+      <Value>68</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="68">
+      <Value>69</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="69">
+      <Value>70</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="70">
+      <Value>71</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="71">
+      <Value>72</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>02/03/2005</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="72">
+      <Value>73</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="73">
+      <Value>74</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="74">
+      <Value>75</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="75">
+      <Value>76</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="76">
+      <Value>77</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="77">
+      <Value>78</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="78">
+      <Value>79</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="79">
+      <Value>80</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="80">
+      <Value>81</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="81">
+      <Value>82</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="82">
+      <Value>83</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="83">
+      <Value>84</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="84">
+      <Value>85</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="85">
+      <Value>86</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="86">
+      <Value>87</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="87">
+      <Value>88</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="88">
+      <Value>89</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="89">
+      <Value>90</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="90">
+      <Value>91</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="91">
+      <Value>92</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="92">
+      <Value>93</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="93">
+      <Value>94</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="94">
+      <Value>95</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="95">
+      <Value>96</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="96">
+      <Value>97</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="97">
+      <Value>98</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="98">
+      <Value>99</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="99">
+      <Value>100</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="100">
+      <Value>101</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="101">
+      <Value>102</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="102">
+      <Value>103</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="103">
+      <Value>104</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="104">
+      <Value>105</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="105">
+      <Value>106</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="106">
+      <Value>107</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="107">
+      <Value>108</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>2004-07-23</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="108">
+      <Value>109</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="109">
+      <Value>110</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="110">
+      <Value>111</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="111">
+      <Value>112</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="112">
+      <Value>113</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="113">
+      <Value>114</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="114">
+      <Value>115</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="115">
+      <Value>116</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="116">
+      <Value>117</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="117">
+      <Value>118</Value>
+      <Value>true</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="118">
+      <Value>119</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="119">
+      <Value>120</Value>
+      <Value>false</Value>
+      <Value>null</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="120">
+      <Value>121</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="121">
+      <Value>122</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="122">
+      <Value>123</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="123">
+      <Value>124</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="124">
+      <Value>125</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="125">
+      <Value>126</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="126">
+      <Value>127</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="127">
+      <Value>128</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="128">
+      <Value>129</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="129">
+      <Value>130</Value>
+      <Value>true</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="130">
+      <Value>131</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="131">
+      <Value>132</Value>
+      <Value>false</Value>
+      <Value>vasiliy pupkin</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="132">
+      <Value>133</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="133">
+      <Value>134</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="134">
+      <Value>135</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="135">
+      <Value>136</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="136">
+      <Value>137</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="137">
+      <Value>138</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="138">
+      <Value>139</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="139">
+      <Value>140</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="140">
+      <Value>141</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="141">
+      <Value>142</Value>
+      <Value>true</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="142">
+      <Value>143</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Praha</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="143">
+      <Value>144</Value>
+      <Value>false</Value>
+      <Value>:equal45DD</Value>
+      <Value>Kyiv</Value>
+      <Value>14/08/1488</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>Registration</Value>
+    <Value>Name_and_surname</Value>
+    <Value>Destinace</Value>
+    <Value>Datum_narozeni</Value>
+    <Value>Sleva</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.001</ExecutionTime>
+    <MaxDomainSize>4</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>144</TotalNoOfCombination>
+    <TotalNoOfTests>144</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+
