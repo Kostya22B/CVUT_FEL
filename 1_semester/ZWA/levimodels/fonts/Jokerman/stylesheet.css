@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Jokerman';
+    src: url('Jokerman-Regular.eot');
+    src: url('Jokerman-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Jokerman-Regular.woff2') format('woff2'),
+        url('Jokerman-Regular.woff') format('woff'),
+        url('Jokerman-Regular.ttf') format('truetype'),
+        url('Jokerman-Regular.svg#Jokerman-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

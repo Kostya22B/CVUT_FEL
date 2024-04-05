@@ -1,0 +1,55 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .img__item {
+    width: 99%;  /* 1 across at mobile */
+  }
+}
+
+/* Media Query for low resolution Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .img__item {
+    width: 99%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode and fucking xiaomi */
+@media (min-width: 768px) and (max-width: 1024px){
+  .img__item {
+    width: 45%;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .img__item {
+    width: 45%;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .img__item {
+    width: 30%; 
+  }
+}
+@media (max-width: 500px) {
+  .footer-bottom p {
+    float: none;
+  }
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+/* media screen&print */
+@media screen {
+  p.bodyText {font-family:verdana, arial, sans-serif;}
+}
+@media print {
+  p.bodyText {font-family:georgia, times, serif;}
+}
+@media screen, print {
+  p.bodyText {font-size:10pt}
+}

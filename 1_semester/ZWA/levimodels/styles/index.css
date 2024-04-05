@@ -1,0 +1,87 @@
+/* DOMik:D */
+:root {
+	--main-bg: white;
+	--header-bg: rgb(142, 138, 222);
+	--background: black;
+	--main-color: black;
+}
+:root.dark {
+	--main-bg:black;
+	--header-bg: rgb(51, 29, 71);
+	--background: white;
+	--main-color: white;
+}
+body {
+	background-color: var(--main-bg);
+	color: var(--main-color);
+}
+/* header start */
+header {
+	padding-top: 20px;
+    font-size: 17px;
+	width: 100%;
+	height: 80px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	background-color: var(--header-bg);
+	position: fixed;
+	z-index: 2;
+}
+.left_header {
+	margin-left: 10px;
+	display: flex;
+	justify-content:space-between;
+	width: 20%;
+	z-index: 1;
+	font-size: 40px; 
+	font-family: 'Jokerman'; 
+	cursor: pointer;
+}
+.right_header {
+	margin-right: 30px;
+	display: flex;
+	justify-content: right;
+}
+.d1 {
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+    width: 40px; 
+    height: 40px;
+    border: 2px solid;
+    border-color: var(--main-color);
+    border-radius: 50%;
+	z-index: 1;
+	cursor: pointer;
+}
+.d2 {
+	display: flex;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 20px;
+    height: 38px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background-color: var(--background);
+	z-index: 1;
+}
+/* header end */
+
+.block_light {
+	background-image: url(../images/back1920_resized.jpg);
+	height: 600px;
+}
+.wrapper {
+	margin-right: auto; /* 1 */
+	margin-left:  auto; /* 1 */
+	max-width: 1280px; /* 2 */
+	padding-right: 15px; /* 3 */
+	padding-left:  15px; /* 3 */
+}
+.slogan {
+	font-size: 80px;
+	padding-top: 120px;
+}
+.btn {
+	width: 30px;
+}
