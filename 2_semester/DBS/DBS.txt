@@ -1,0 +1,5 @@
+Nemocnice
+Toto téma jsem si vybral, protože jsem byl v nemocnici mnohokrát v životě.
+Ve své semestrální práci chci vytvořit tyto entity: osoba (pacient, lékař, návštěvník), 
+nemocnice, systém evidence a propouštění pacientů
+Také všechny tyto entity budou propojeny. implementace bude ukázána pomocí UML diagramu
