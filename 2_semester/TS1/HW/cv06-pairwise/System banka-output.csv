@@ -1,0 +1,16 @@
+# ACTS Test Suite Generation: Tue Apr 11 16:50:54 CEST 2023
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 3
+# Maximum number of values per parameter: 3
+# Number of configurations: 9
+cislo_uctu,Date,castka
+111333/2700,16. 4. 2020,10000
+111333/2700,8. 5. 2020,9999
+111333/2700,31. 3. 2020,10000
+20201117/2010,16. 4. 2020,9999
+20201117/2010,8. 5. 2020,10000
+20201117/2010,31. 3. 2020,9999
+9916210/0123,16. 4. 2020,10000
+9916210/0123,8. 5. 2020,9999
+9916210/0123,31. 3. 2020,10000
