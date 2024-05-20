@@ -7,7 +7,7 @@ Tento projekt je součásti semestrální práce z předmětu Základy datových
 - **ZDA_sem_work_documentation** report týkající se práce na projektu.
 - **složka dataset** obsahuje všechny tabulky, které byly použity pro analýzu.
 
-##Used links
+## Used links
 
 - Str,obj types to string: https://stackoverflow.com/questions/32464280/how-to-convert-currency-column-with-and-to-numbers
 - Platfrom for study ML and DA with rich amount of datasets: https://www.kaggle.com/datasets
