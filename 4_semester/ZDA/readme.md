@@ -12,3 +12,5 @@ Tento projekt je součásti semestrální práce z předmětu Základy datových
 - Str,obj types to string: https://stackoverflow.com/questions/32464280/how-to-convert-currency-column-with-and-to-numbers
 - Platfrom for study ML and DA with rich amount of datasets: https://www.kaggle.com/datasets
 - Online LateX editor: https://www.overleaf.com/
+- ChatGPT to debug type errors and converting tables into graph: https://chatgpt.com/
+- My brain :D
